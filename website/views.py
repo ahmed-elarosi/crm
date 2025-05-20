@@ -31,4 +31,4 @@ def logout_user(request):
 
 
 def register_user(request):
-    return render(request, "register.html")
+    return render(request, "register.html", {})
